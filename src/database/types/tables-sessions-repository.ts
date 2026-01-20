@@ -1,0 +1,8 @@
+type TablesSessionsRepository = {
+    id: number
+    table_id: number
+    opened_at: number
+    closed_at: number
+}
+
+export type { TablesSessionsRepository }
